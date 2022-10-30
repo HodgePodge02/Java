@@ -2,7 +2,7 @@ package Chapter3;
 
 import java.util.Scanner;
 
-public class TestResulta {
+public class TestResults {
     public static void main(String args[]) {
         //Get test score
         System.out.println("Enter your test score");
