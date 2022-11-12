@@ -15,16 +15,15 @@ public class PhoneBillCalculator {
 
     public static void main(String arg[]) {
 
-        Scanner scanner = new Scanner(System.in);
-
         //init the known
         System.out.println("Enter base cost of plan");
+        Scanner scanner = new Scanner(System.in);
         double baseCost = scanner.nextDouble();
 
         System.out.println("Enter # of overage minutes");
         double overageMinutes = scanner.nextDouble();
 
-        scanner.close();
+       scanner.close();
 
         double overageCharge = calculateOverages(overageMinutes);
         double tax = calculateTax(baseCost + overageCharge);
