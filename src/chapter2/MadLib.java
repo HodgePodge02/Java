@@ -8,7 +8,7 @@ public class MadLib {
         //1. season of the year?
         System.out.println("Enter a season of the year.");
         Scanner scanner = new Scanner(System.in);
-        String season = scanner.nextLine();
+        String season = scanner.next();
 
         //2. whole number?
         System.out.println("Enter a whole number.");
