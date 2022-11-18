@@ -19,9 +19,7 @@ public class UserVerification {
 
         //check if user is qualified
         verifyUserAge(age);
-
     }
-
     public static int getUserAge() {
         System.out.println("Enter your age");
         int age = scanner.nextInt();
